@@ -22,10 +22,14 @@
 </head>
 
 <body id="page-top">
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
    
     <!-- Page Wrapper -->
     <div id="wrapper">
-
+@if(SignInManager.IsSignedIn(User))
+{
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
@@ -58,15 +62,15 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="#">New Projects</a>
-                        <a class="collapse-item" href="#s">Projects List</a>
+                        <a class="collapse-item" href="Projects">New Projects</a>
+                        <a class="collapse-item" href="Projects">Projects List</a>
                     </div>
                 </div>
             </li>
 
             <!-- Nav Item - Tables Leaders -->
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="Leaders">
                    <i class="fas fa-user"></i>
                     <span>Leaders</span></a>
             </li>
@@ -89,7 +93,7 @@
             
         </ul>
         <!-- End of Sidebar -->
-
+}
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
@@ -98,7 +102,8 @@
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
+@if(SignInManager.IsSignedIn(User))
+{
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
@@ -180,7 +185,7 @@
                         </li>
 
                     </ul>
-
+}
                 </nav>
                 <!-- End of Topbar -->
 

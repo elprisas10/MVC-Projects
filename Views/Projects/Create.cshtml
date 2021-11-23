@@ -1,0 +1,47 @@
+@model firstApplication.Models.Projects
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Projects</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StartProject" class="control-label"></label>
+                <input asp-for="StartProject" class="form-control" />
+                <span asp-validation-for="StartProject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinishProject" class="control-label"></label>
+                <input asp-for="FinishProject" class="form-control" />
+                <span asp-validation-for="FinishProject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescriptionProject" class="control-label"></label>
+                <input asp-for="DescriptionProject" class="form-control" />
+                <span asp-validation-for="DescriptionProject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LeadersID" class="control-label"></label>
+                <select asp-for="LeadersID" class ="form-control" asp-items="ViewBag.LeadersID"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
