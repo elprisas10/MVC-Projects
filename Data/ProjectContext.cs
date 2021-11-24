@@ -50,4 +50,8 @@ public class ProjectContext : IdentityDbContext
                 entity.ToTable(name: "UserTokens");
             });
         }
+
+        public DbSet<firstApplication.Models.Product> Product { get; set; }
+
+
     }

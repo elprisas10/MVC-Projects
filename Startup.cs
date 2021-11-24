@@ -26,32 +26,31 @@ namespace firstApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            
-            //Agrega el contexto de la base de datos
-            //especifica en cual gestor se trabajara
+
             services.AddDbContext<ProjectContext>(options =>
-                    options.UseMySQL(Configuration.GetConnectionString("ProjectContext")));
+                  options.UseMySQL(Configuration.GetConnectionString("ProjectContext")));
 
-            //Autenticacion
+                    //para autenticacion
             services.AddIdentity<IdentityUser, IdentityRole>()
-            .AddDefaultUI()
-            .AddEntityFrameworkStores<ProjectContext>()
-            .AddDefaultTokenProviders();
-
+                    .AddDefaultUI()
+                    .AddEntityFrameworkStores<ProjectContext>()
+                    .AddDefaultTokenProviders();
+                    
+            //configures the application cookie to redirect 
             services.ConfigureApplicationCookie(options =>
             {
-                options.LoginPath="/Login";
-                options.SlidingExpiration=true;
-
-            }
-            );
-            services.AddRazorPages(options=>{
-                options.Conventions.AddAreaPageRoute("Identity", "/Account/Login", "/Login");
-                options.Conventions.AddAreaPageRoute("Identity", "/Account/Register", "/Register");
-
+                options.LoginPath = "/Login";
+                options.AccessDeniedPath = "/AccessDenied";
+                options.SlidingExpiration = true;                             
             });
 
-            
+            services.AddRazorPages(options =>
+            {
+                    options.Conventions.AddAreaPageRoute("Identity", "/Account/Register", "/Register");
+                    options.Conventions.AddAreaPageRoute("Identity", "/Account/Login", "/Login");
+                    options.Conventions.AddAreaPageRoute("Identity", "/Account/AccessDenied", "/AccessDenied");
+                     
+             });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -69,18 +68,24 @@ namespace firstApplication
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseDefaultFiles();
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            
+             app.UseStatusCodePages(); //habilitar el codigo del estado de las paginas
+             ///authentication 
             app.UseAuthentication();
+            app.UseAuthorization();
+
+
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-                    endpoints.MapRazorPages();
+                endpoints.MapRazorPages(); 
             });
         }
     }
