@@ -53,5 +53,6 @@ public class ProjectContext : IdentityDbContext
 
         public DbSet<firstApplication.Models.Product> Product { get; set; }
 
+        
 
     }

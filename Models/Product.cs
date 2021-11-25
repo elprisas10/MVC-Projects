@@ -29,7 +29,13 @@ namespace firstApplication.Models
 
         public int vendedorID {get;set;}
 
+        public vendedores vendedor {get; set;}
+
         
+
+
+        
+    
 
 
     }
