@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Pc\\firstApplication\\firstApplication.csproj",
+  "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\firstApplication.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,188 +15619,288 @@
   "RootNamespace": "firstApplication",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Projects\\Edit.cshtml",
-      "TargetPath": "Views\\Projects\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Projects\\Create.cshtml",
-      "TargetPath": "Views\\Projects\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Product\\Create.cshtml",
-      "TargetPath": "Views\\Product\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Product\\Delete.cshtml",
-      "TargetPath": "Views\\Product\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Product\\Details.cshtml",
-      "TargetPath": "Views\\Product\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Leaders\\Details.cshtml",
-      "TargetPath": "Views\\Leaders\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Leaders\\Edit.cshtml",
-      "TargetPath": "Views\\Leaders\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Product\\Index.cshtml",
-      "TargetPath": "Views\\Product\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Home\\Personal.cshtml",
-      "TargetPath": "Views\\Home\\Personal.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Projects\\Index.cshtml",
-      "TargetPath": "Views\\Projects\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Leaders\\Delete.cshtml",
-      "TargetPath": "Views\\Leaders\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Shared\\_Project.cshtml",
-      "TargetPath": "Views\\Shared\\_Project.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Projects\\Details.cshtml",
-      "TargetPath": "Views\\Projects\\Details.cshtml",
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Projects\\Create.cshtml",
+      "TargetPath": "Views\\Projects\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Leaders\\Create.cshtml",
-      "TargetPath": "Views\\Leaders\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Product\\Edit.cshtml",
-      "TargetPath": "Views\\Product\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Leaders\\Index.cshtml",
-      "TargetPath": "Views\\Leaders\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Projects\\Delete.cshtml",
-      "TargetPath": "Views\\Projects\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\Personal\\Index.cshtml",
-      "TargetPath": "Views\\Personal\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Escritores\\Create.cshtml",
+      "TargetPath": "Views\\Escritores\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Projects\\Delete.cshtml",
+      "TargetPath": "Views\\Projects\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Compra\\Details.cshtml",
+      "TargetPath": "Views\\Compra\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Vendedores\\Details.cshtml",
+      "TargetPath": "Views\\Vendedores\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Leaders\\Delete.cshtml",
+      "TargetPath": "Views\\Leaders\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Personal\\Index.cshtml",
+      "TargetPath": "Views\\Personal\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Compra\\Index.cshtml",
+      "TargetPath": "Views\\Compra\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Escritores\\Edit.cshtml",
+      "TargetPath": "Views\\Escritores\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Escritores\\Index.cshtml",
+      "TargetPath": "Views\\Escritores\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Escritores\\Details.cshtml",
+      "TargetPath": "Views\\Escritores\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Vendedores\\Delete.cshtml",
+      "TargetPath": "Views\\Vendedores\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Home\\Personal.cshtml",
+      "TargetPath": "Views\\Home\\Personal.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Periodico\\Details.cshtml",
+      "TargetPath": "Views\\Periodico\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Vendedores\\Edit.cshtml",
+      "TargetPath": "Views\\Vendedores\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Periodico\\Edit.cshtml",
+      "TargetPath": "Views\\Periodico\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Product\\Delete.cshtml",
+      "TargetPath": "Views\\Product\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Compra\\Create.cshtml",
+      "TargetPath": "Views\\Compra\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Periodico\\Delete.cshtml",
+      "TargetPath": "Views\\Periodico\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Leaders\\Edit.cshtml",
+      "TargetPath": "Views\\Leaders\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Projects\\Details.cshtml",
+      "TargetPath": "Views\\Projects\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Shared\\_Project.cshtml",
+      "TargetPath": "Views\\Shared\\_Project.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Escritores\\Delete.cshtml",
+      "TargetPath": "Views\\Escritores\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Periodico\\Index.cshtml",
+      "TargetPath": "Views\\Periodico\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Vendedores\\Create.cshtml",
+      "TargetPath": "Views\\Vendedores\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Product\\Create.cshtml",
+      "TargetPath": "Views\\Product\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Leaders\\Create.cshtml",
+      "TargetPath": "Views\\Leaders\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Compra\\Edit.cshtml",
+      "TargetPath": "Views\\Compra\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Periodico\\Create.cshtml",
+      "TargetPath": "Views\\Periodico\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Projects\\Index.cshtml",
+      "TargetPath": "Views\\Projects\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Compra\\Delete.cshtml",
+      "TargetPath": "Views\\Compra\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Product\\Edit.cshtml",
+      "TargetPath": "Views\\Product\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Pc\\firstApplication\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Product\\Details.cshtml",
+      "TargetPath": "Views\\Product\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Projects\\Edit.cshtml",
+      "TargetPath": "Views\\Projects\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Leaders\\Details.cshtml",
+      "TargetPath": "Views\\Leaders\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Vendedores\\Index.cshtml",
+      "TargetPath": "Views\\Vendedores\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pc\\Desktop\\Nueva carpeta\\MVC-Projects\\Views\\Leaders\\Index.cshtml",
+      "TargetPath": "Views\\Leaders\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

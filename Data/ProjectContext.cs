@@ -53,5 +53,13 @@ public class ProjectContext : IdentityDbContext
 
         public DbSet<firstApplication.Models.Product> Product { get; set; }
 
+        public DbSet<firstApplication.Models.Vendedores> Vendedores { get; set; }
+
+        public DbSet<firstApplication.Models.Periodico> Periodico { get; set; }
+
+        public DbSet<firstApplication.Models.Escritores> Escritores { get; set; }
+
+        public DbSet<firstApplication.Models.Compra> Compra { get; set; }
+
 
     }
